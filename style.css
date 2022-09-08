@@ -1,0 +1,58 @@
+.ah {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+    font-style: oblique;
+    color:white;
+}
+
+.ghana {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body
+{
+    background-image:url(ruz-logo.png);
+    background-size:cover;
+    background-position:center;
+    
+
+}
+
+.menu-bar {
+    background:rgb(0,100,0);
+    text-align:right;
+
+}
+
+.menu-bar ul {
+    display:inline-flex;
+    list-style:none;
+    color:#fff;
+
+}
+
+.menu-bar ul li {
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+
+.menu-bar ul li a {
+    text-decoration:none;
+    color:#fff;
+}
+
+.active, .menu-bar ul li:hover {
+    background-color:rgb(102, 255, 0);
+    border-radius:3px;
+}
+
+.menu-bar .fa {
+    margin-right: 8px;
+
+}
